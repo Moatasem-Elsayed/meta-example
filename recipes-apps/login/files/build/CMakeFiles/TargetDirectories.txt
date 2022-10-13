@@ -1,0 +1,4 @@
+/home/moatasem/poky/meta-mylayer/recipes-application/login/files/build/CMakeFiles/rebuild_cache.dir
+/home/moatasem/poky/meta-mylayer/recipes-application/login/files/build/CMakeFiles/edit_cache.dir
+/home/moatasem/poky/meta-mylayer/recipes-application/login/files/build/CMakeFiles/login_system.dir
+/home/moatasem/poky/meta-mylayer/recipes-application/login/files/build/CMakeFiles/login_system_autogen.dir

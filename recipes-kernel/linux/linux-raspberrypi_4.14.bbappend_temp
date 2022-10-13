@@ -1,0 +1,4 @@
+ 
+FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
+SRC_URI += "file://defconfig"
+KBUILD_DEFCONFIG_raspberrypi3-custom ?= "bcm2709_defconfig"

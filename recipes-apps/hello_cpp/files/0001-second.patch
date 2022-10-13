@@ -1,0 +1,27 @@
+From 90355350b943ae38b9ea01a59aacb06b664204e8 Mon Sep 17 00:00:00 2001
+From: Moatasem-Elsayed <eng.moatasem.8@gmail.com>
+Date: Fri, 17 Jun 2022 23:33:14 +0000
+Subject: [PATCH] second
+
+---
+ hello.cpp | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/hello.cpp b/hello.cpp
+index 1ecd342..dd1f7ce 100644
+--- a/hello.cpp
++++ b/hello.cpp
+@@ -3,7 +3,8 @@
+ 
+ int main()
+ {
++	std::cout<<"moatasem"<<std::endl;
+     std::cout<<"[Yocto Project][THIS_IMAGE] is designed by moatasem"<<std::endl;
+     std::cout <<"This Program is just to say hello "<<std::endl;
+     return 0;
+-}
+\ No newline at end of file
++}
+-- 
+2.25.1
+

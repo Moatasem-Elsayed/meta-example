@@ -1,0 +1,25 @@
+From f99ac4398b3368ecf0d837f24c578d893988ba9a Mon Sep 17 00:00:00 2001
+From: Moatasem-Elsayed <eng.moatasem.8@gmail.com>
+Date: Fri, 17 Jun 2022 23:09:01 +0000
+Subject: [PATCH] thirdcommit
+
+---
+ hello.cpp | 1 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hello.cpp b/hello.cpp
+index 49fae5e..7c77a00 100644
+--- a/hello.cpp
++++ b/hello.cpp
+@@ +3,7 @@
+ 
+ int main()
+ {
+
++    std::cout<<"moatasem elsayed"<<std::endl;
+     std::cout<<"[Yocto Project][THIS_IMAGE] is designed by moatasem"<<std::endl;
+     std::cout <<"This Program is just to say hello "<<std::endl;
+     return 0;
+-- 
+2.25.1
+

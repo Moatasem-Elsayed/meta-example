@@ -1,0 +1,8 @@
+[Unit]
+Description=GNU Hello World startup script
+
+[Service]
+ExecStart=/usr/sbin/hellocpp
+
+[Install]
+WantedBy=multi-user.target
