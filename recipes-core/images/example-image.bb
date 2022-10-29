@@ -103,3 +103,19 @@ IMAGE_REMOVE += " python-flask-hello-world_git"
 ### Video ###
 HDMI_GROUP = "1"
 HDMI_MODE = "4"
+# start_x=1
+# gpu_mem=128
+# disable_camera_led=1   # optional for disabling the red LED on the camera
+VIDEO_CAMERA = "1"
+RASPBERRYPI_CAMERA_V2 = "1"
+ENABLE_DWC2_HOST = "1"
+IMAGE_INSTALL_append = " fswebcam opencv"
+IMAGE_INSTALL_append = " python3-opencv"
+IMAGE_INSTALL_append = " python3-pip"
+
+MACHINE_FEATURES_append=" vc4graphics xf86-video-fbdev"
+DISTRO_FEATURES_append = " opengl x11 fbdev"
+VC4GRAPHICS = "1"
+IMAGE_INSTALL_append = " v4l-utils"
+IMAGE_INSTALL_append = " userland "
+IMAGE_FEATURES += " x11-base "
