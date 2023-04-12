@@ -1,0 +1,20 @@
+# POKY_BBLAYERS_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+POKY_BBLAYERS_CONF_VERSION = "2"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  /home/moatasem/poky/meta \
+  /home/moatasem/poky/meta-poky \
+  /home/moatasem/poky/meta-yocto-bsp \
+  /home/moatasem/poky/meta-raspberrypi \
+  /home/moatasem/poky/meta-openembedded/meta-oe \
+  /home/moatasem/poky/meta-qt5 \
+  /home/moatasem/poky/meta-example-layer \
+  /home/moatasem/poky/meta-openembedded/meta-python \
+  /home/moatasem/poky/meta-openembedded/meta-networking \
+  /home/moatasem/poky/meta-openembedded/meta-multimedia \
+  /home/moatasem/poky/meta-atmel \
+  "
