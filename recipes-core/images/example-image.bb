@@ -7,7 +7,7 @@ COMPATIBLE_MACHINE = "^rpi$"
 inherit populate_sdk_qt5
 IMAGE_INSTALL +=" rsync lftp"
 
-# User configuration
+# User configuration openssh encrypt MD5-based (openssl passwd -1 toor)
 inherit extrausers
 EXTRA_USERS_PARAMS = "\
 usermod -p \\\$1\\\$8uiksjhr\\\$dGcSUTCMLX0Tl1Benl3SX. root \
@@ -90,7 +90,7 @@ IMAGE_INSTALL_append = " gstreamer1.0-plugins-good gstreamer1.0-plugins-base gst
 LICENSE_FLAGS_WHITELIST_append = " commercial  commercial_gstreamer1.0-plugins-ugly commercial_gstreamer1.0-plugins-ugly"
 PACKAGECONFIG_append_pn-qtmultimedia = " gstreamer alsa"
 
-IMAGE_INSTALL +=" omxplayer  "
+#IMAGE_INSTALL +=" omxplayer  "
 
 ### Audio Streaming ###
 DISTRO_FEATURES_append = " pulseaudio"

@@ -1,0 +1,6 @@
+setenv ipaddr 10.42.0.83
+setenv serverip 10.42.0.1
+fdt addr ${fdt_addr} && fdt get value bootargs /chosen bootargs
+tftp ${kernel_addr_r} @@KERNEL_IMAGETYPE@@
+if test ! -e mmc 0:1 uboot.env; then saveenv; fi;
+@@KERNEL_BOOTCMD@@ ${kernel_addr_r} - ${fdt_addr}
